@@ -11,11 +11,11 @@
 import * as d3 from "d3v3";
 export default {
   mounted() {
-    this.getPlot();
+    this.getSimpleScatterChart();
   },
   methods: {
-    getPlot() {
-      console.log("getPlot");
+    getSimpleScatterChart() {
+      console.log("getSimpleScatterChart");
       var data = [[5, 3], [10, 17], [15, 4], [2, 8]];
 
       var margin = { top: 20, right: 15, bottom: 60, left: 60 },
