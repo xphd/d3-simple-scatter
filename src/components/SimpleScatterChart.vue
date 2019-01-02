@@ -99,8 +99,8 @@ export default {
 </script>
 
 <style >
-.chart {
-}
+/* .chart {
+} */
 
 .main text {
   font: 10px sans-serif;
